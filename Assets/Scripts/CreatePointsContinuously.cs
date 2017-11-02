@@ -26,10 +26,12 @@ public class CreatePointsContinuously : MonoBehaviour {
 	int colorIndex;
 
 	//enable for testing:
-	//Vector3 pos1;
-	//Vector3 pos2;
-	//Vector3 pos3;
-	//Vector3 pos5;
+	/*
+	Vector3 pos1;
+	Vector3 pos2;
+	Vector3 pos3;
+	Vector3 pos5;
+	*/
 
 	// Use this for initialization
 	void Start () {
@@ -39,14 +41,16 @@ public class CreatePointsContinuously : MonoBehaviour {
 		pos4 = new Vector3 (0, 0, 0);
 
 		//enable for testing:
-		//pos1 = new Vector3(0.0955f,-0.0543f,1);
-		//pos2 = new Vector3 (0.01795f, -0.0448f, 1);
-		//pos3 = new Vector3 (0.06f, -0.09f, 1);
-		//pos5 = new Vector3 (0.04f, -0.01f, 1);
-		//CreateBall(pos1);
-		//CreateBall (pos2);
-		//CreateBall (pos3);
-		//CreateBall (pos5);
+		/*
+		pos1 = new Vector3(0.0955f,-0.0543f,1);
+		pos2 = new Vector3 (0.01795f, -0.0448f, 1);
+		pos3 = new Vector3 (0.06f, -0.09f, 1);
+		pos5 = new Vector3 (0.04f, -0.01f, 1);
+		CreateBall(pos1);
+		CreateBall (pos2);
+		CreateBall (pos3);
+		CreateBall (pos5);
+		*/
 	}
 		public void ARFrameUpdated(UnityARCamera camera)
 		{
