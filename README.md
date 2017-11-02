@@ -1,4 +1,4 @@
-# Virtual Tape Machine
+# Virtual Tape Measure
 IOS 11 Augmented Reality application for measuring length in real spaces.
 
 Created using Unity3D and Apple’s ARKit        
